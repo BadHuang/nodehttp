@@ -24,15 +24,15 @@ fs.readdir(pathName, function(err, files){
                     let type = files[j].substring(0,index)         
                     // dirs.push(type);
                     let array = []
-                    let options = {
-                        host:'admin.tx.haomo-tech.com',
-                        path:'/api/com.haomo.'+type,
-                        method:'POST',
-                        headers:{
-                            'Content-Type':'application/json',
-                            'Accept': 'application/json'
-                        }
-                    }
+                    // let options = {
+                    //     host:'admin.tx.haomo-tech.com',
+                    //     path:'/api/com.haomo.'+type,
+                    //     method:'POST',
+                    //     headers:{
+                    //         'Content-Type':'application/json',
+                    //         'Accept': 'application/json'
+                    //     }
+                    // }
                     
                     array = JSON.parse(data);//将字符串转换为json对象
                     
